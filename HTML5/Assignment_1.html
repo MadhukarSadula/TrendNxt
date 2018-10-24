@@ -1,0 +1,105 @@
+<html>
+<head>
+<style>
+#table1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table1 td, #ctable1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table1 tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#table1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+h2{
+text-align: center;
+}
+input[type=text],input[type=email],input[type=number]{
+    width:80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+button{
+    width:20%;
+    padding: 12px;
+    border: 1px solid darkgoldenrod;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: gray;
+}
+
+</style>
+</head>
+<body>
+    <h2>FSG_HTML5_ASSIGNMENT_1</h2>
+    <br>
+<div>
+<table id="table1">
+<tr><th>
+TICKER
+</th>
+<th>
+PRICE
+</th>
+</tr>
+<tr>
+<td>WIPRO
+</td>
+<td>298.45
+</td>
+</tr>
+<tr>
+<td>INFY
+</td>
+<td>949.95
+</td>
+</tr>
+<tr>
+<td>TCS
+</td>
+<td>2713.70
+</td>
+</tr>
+<tr>
+<td>TECHM
+</td>
+<td>485.85
+</td>
+</tr>
+
+</table>
+</div>
+<h2>Stock Trading</h2>
+<div>
+<table id="table1">
+<tr>
+<td>Ticker</td>
+<td><input type="text" /></td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td> <input type="number" name="quantity" min="10" max="100" step="10" placeholder="Multiple of 10"></td>
+</tr>
+<tr>
+<td colspan="2">
+<button type="Submit" >Submit</button>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
